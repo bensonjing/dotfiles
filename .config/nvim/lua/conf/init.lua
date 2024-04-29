@@ -1,0 +1,5 @@
+require('conf.dracula')
+require('conf.lsp')
+require('conf.autocomplete')
+require('conf.treesitter')
+require('conf.nvim-tree')
