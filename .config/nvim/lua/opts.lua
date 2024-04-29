@@ -25,6 +25,10 @@ vim.api.nvim_create_autocmd("BufWritePre", {
   end,
 })
 
+-- Disable filetype indent 
+vim.g.did_load_filtype = 1
+vim.cmd "filetype plugin indent off"
+
 -- No highlight search
 -- vim.cmd "autocmd CmdlineEnter /,? :set hlsearch"
 -- vim.cmd "autocmd CmdlineLeave /,? :set nohlsearch"

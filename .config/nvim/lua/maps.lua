@@ -14,3 +14,4 @@ map.set("n", "<S-Tab>", ":tabprev<CR>")
 
 map.set("n", "<ESC>", ":nohlsearch<CR>")
 
+vim.keymap.set('n', '<c-n>', ':NvimTreeFindFileToggle<CR>')
