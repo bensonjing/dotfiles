@@ -18,18 +18,10 @@ vim.opt.swapfile = false
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
+vim.cmd "filetype plugin indent on"
 -- Auto formatting
-vim.api.nvim_create_autocmd("BufWritePre", {
-  callback = function()
-    vim.lsp.buf.format()
-  end,
-})
-
--- Disable filetype indent 
-vim.g.did_load_filtype = 1
-vim.cmd "filetype plugin indent off"
-
--- No highlight search
--- vim.cmd "autocmd CmdlineEnter /,? :set hlsearch"
--- vim.cmd "autocmd CmdlineLeave /,? :set nohlsearch"
-
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--   callback = function()
+--     vim.lsp.buf.format()
+--   end,
+-- })

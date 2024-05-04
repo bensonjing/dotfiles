@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
   -- theme 
-  'dracula/vim', 
+  'Mofiqul/dracula.nvim', 
 
   -- LSP 
   'williamboman/mason.nvim',
