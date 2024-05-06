@@ -14,7 +14,7 @@ require("nvim-tree").setup({
     open_file = {
       quit_on_open = true,
     }
-  }
+  }, 
 })
 
 -- Auto close when nvim-tree is the last window

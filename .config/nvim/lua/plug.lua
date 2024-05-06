@@ -36,7 +36,10 @@ local plugins = {
 
   -- file explorer 
   'nvim-tree/nvim-tree.lua',
-  'nvim-tree/nvim-web-devicons'
+  'nvim-tree/nvim-web-devicons',
+
+  -- misc 
+  'lewis6991/gitsigns.nvim',
 }
 local opts = {}
 require('lazy').setup(plugins, opts)
