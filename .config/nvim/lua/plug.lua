@@ -37,6 +37,8 @@ local plugins = {
   -- file explorer 
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
+  'nvim-lua/plenary.nvim',
+  'nvim-telescope/telescope.nvim',
 
   -- misc 
   'lewis6991/gitsigns.nvim',
