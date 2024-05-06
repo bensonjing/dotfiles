@@ -72,6 +72,7 @@ ZSH_THEME="dracula"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
+    #git-prompt
     zsh-syntax-highlighting
     zsh-autosuggestions
 )
@@ -107,4 +108,5 @@ alias ll="ls -la"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # Prompt 
-export PS1="%n@%m:%1~$ "
+# export PS1="%n@%m:%1~$ "
+export PS1="%F{blue}%1~ %F{green}> "
