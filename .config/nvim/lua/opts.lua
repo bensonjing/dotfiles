@@ -9,6 +9,7 @@ vim.opt.smartindent = true
 vim.opt.scrolloff = 8
 
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.hidden = true
 vim.opt.signcolumn = 'number'
 vim.opt.ignorecase = true

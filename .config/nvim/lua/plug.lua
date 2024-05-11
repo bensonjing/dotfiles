@@ -42,7 +42,9 @@ local plugins = {
 
   -- misc 
   'lewis6991/gitsigns.nvim',
+  'christoomey/vim-tmux-navigator',
 }
+
 local opts = {}
 require('lazy').setup(plugins, opts)
 
