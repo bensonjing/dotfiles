@@ -14,13 +14,14 @@ vim.opt.hidden = true
 vim.opt.signcolumn = 'number'
 vim.opt.ignorecase = true
 vim.opt.showcmd = false
-vim.opt.showmode = false
+vim.opt.showmode = true
 vim.opt.backup = false
 vim.opt.swapfile = false
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
+vim.opt.guicursor = "n-v-i-c:block-Cursor"
 vim.opt.statusline = '%=%f %m %P'
 vim.cmd "filetype plugin indent on"
 
